@@ -8,7 +8,6 @@ return driver.filter(function(d){
 function driverNamesWithRevenueOver(driver, revenue){
   driver.filter(function(d){
    d.revenue > revenue;
-   debugger;
  })
   return driver.map(function(d){
   return  d.name
