@@ -18,7 +18,6 @@ function exactMatch(driver,object1){
   return driver.filter(function(d){
     for (const key in object1){
       for(const keyd in d){
-        debugger;
         return d[keyd] === object1[key];
       }
     }
