@@ -23,7 +23,7 @@ function exactMatch(driver,object1){
 }
 
 function exactMatchToList(driver, object1){
-driver.filter(function(d){
+return driver.filter(function(d){
     for(const key in object1){
       if(d[key] === object1[key]){
         debugger;
