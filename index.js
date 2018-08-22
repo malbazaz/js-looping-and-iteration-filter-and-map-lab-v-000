@@ -30,5 +30,4 @@ return driver.filter(function(d){
       }
       }
     })
-    debugger;
 }
