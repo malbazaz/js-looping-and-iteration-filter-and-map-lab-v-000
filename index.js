@@ -27,7 +27,6 @@ const driver1= driver.filter(function(d){
     for(const key in object1){
     return d[key] === object1[key];
       }
-      }
     })
 return driver1.map(function(d){
     for(const key in object1){
