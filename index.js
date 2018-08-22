@@ -26,7 +26,6 @@ function exactMatchToList(driver, object1){
 return driver.filter(function(d){
     for(const key in object1){
       if(d[key] === object1[key]){
-        debugger;
         return d[key];
       }
       }
