@@ -22,5 +22,4 @@ function exactMatch(driver,object1){
       }
     }
   })
-})
 }
