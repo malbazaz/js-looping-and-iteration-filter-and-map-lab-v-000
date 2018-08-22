@@ -19,7 +19,7 @@ function exactMatch(driver,object1){
     for (const key in object1){
       for(const keyd in d){
         debugger;
-        return object1[key] === d[keyd];
+        return d[keyd] === object1[key];
       }
     }
   })
