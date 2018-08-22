@@ -29,7 +29,6 @@ function exactMatchToList(driver, object1){
         return d[key];
       }
       }
-    }
-  })
+    })
+
 }
-;
