@@ -30,5 +30,4 @@ function exactMatchToList(driver, object1){
       }
       }
     })
-
 }
