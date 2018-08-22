@@ -23,10 +23,9 @@ function exactMatch(driver,object1){
 }
 
 function exactMatchToList(driver, object1){
-return driver.map(function(d){
+return driver.filter(function(d){
     for(const key in object1){
-      if(d[key] === object1[key]){
-        return d[key];
+    return d[key] === object1[key];
       }
       }
     })
