@@ -24,3 +24,13 @@ function exactMatch(driver,object1){
     }
   })
 }
+
+function exactMatchToList(driver, object1){
+  const driver1 = driver.filter(function(d){
+    for(const key in object1){
+      for (const keyd in d){
+        return d[keyd] === object1[key];
+      }
+    }
+  })
+}
