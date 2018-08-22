@@ -6,7 +6,7 @@ return driver.filter(function(d){
 }
 
 function driverNamesWithRevenueOver(driver, revenue){
-  return driver.filter(function(d){
+  driver.filter(function(d){
     if(d.revenue > revenue){
       return d.name;
     }
