@@ -30,7 +30,7 @@ const driver1= driver.filter(function(d){
     })
 return driver1.map(function(d){
     for(const key in object1){
-      return d[key];
+      return d["name"];
     }
   })
 }
